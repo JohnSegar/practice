@@ -1,6 +1,60 @@
-ul{
-  list-style: none;
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
 }
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  display: block;
+  background-image: url("http://68.media.tumblr.com/1f8e200eb899ba042f92d04aad5653f7/tumblr_inline_mum5a6BYiJ1ry1icv.jpg");
+  }
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 75px;
+    line-height: 130px;
+    display: inline-block;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .Solandge {
+      background-image: url("http://www.superyachts.com/syv2/resource/134-87-95-c-4cdd/superyachts/property/description/resource/solandge-46363.jpg");
+      opacity: 0.5;
+      display: inline-block;
+    }
+
+  .Solandge a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+    }
+
+.Ariadna {
+    background-image: url("http://www.superyachts.com/syv2/resource/134-87-95-c-4cdd/superyachts/property/description/resource/ariadna-53174.jpg");
+    opacity: 0.5;
+    display: inline-block;
+  }
+
+.Ariadna a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+  }
+
+
+
+
+
+
+/*BUTTONS*/
 
 .button1 {
   background: #1F80FF;
