@@ -2,7 +2,7 @@ ul{
   list-style: none;
 }
 
-.button {
+.button1 {
   background: #1F80FF;
   border-width: 1px;
   border-color: #1F80FF;
@@ -10,11 +10,34 @@ ul{
   border-radius: 2px;
 }
 
-.button:hover {
+.button1:hover {
   background: white;
   color: #1F80FF;
   border-width: 1px;
   border-color: #1F80FF;
-  -webkit-transition: background 1s;
-  
+  -webkit-transition: all 1s;
+}
+
+.button2 {
+  background: grey;
+  border-width: 1px;
+  border-color: grey;
+  color: white;
+  border-radius: 2px;
+}
+
+.button2:hover {
+  background: white;
+  color: grey;
+  border-width: 1px;
+  border-color: grey;
+  -webkit-transition: all 1s;
+}
+
+.star::before {
+    content: "* ";
+}
+
+.star::after {
+    content: " *";
 }
